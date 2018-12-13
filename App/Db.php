@@ -34,6 +34,7 @@ class Db
     public function getLastId()
     {
         return $this->dbh->lastInsertId();
-///*//*/
+
+        
     }
 }
